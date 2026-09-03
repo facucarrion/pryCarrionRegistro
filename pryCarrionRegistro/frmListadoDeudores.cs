@@ -25,7 +25,11 @@ namespace pryCarrionRegistro
                 }
             }
 
+            lblCantidadClientes.Text = clsVector.indice.ToString();
+
             lblTotalDeuda.Text = "$" + deuda.ToString();
+
+            lblPromedioDeuda.Text = "$" + (deuda / clsVector.indice).ToString();
         }
 
         decimal deuda = 0;

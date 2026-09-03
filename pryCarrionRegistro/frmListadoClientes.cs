@@ -19,8 +19,17 @@ namespace pryCarrionRegistro
             for (int i = 0; i < clsVector.indice; i++)
             {
                 dgvListado.Rows.Add(clsVector.arrClientes[i].codigo, clsVector.arrClientes[i].nombre, clsVector.arrClientes[i].limitecredito, clsVector.arrClientes[i].deuda);
+                deuda += clsVector.arrClientes[i].deuda;
             }
+
+            lblCantidadClientes.Text = clsVector.indice.ToString();
+
+            lblTotalDeuda.Text = "$" + deuda.ToString();
+
+            lblPromedioDeuda.Text = "$" + (deuda / clsVector.indice).ToString();
         }
+
+        decimal deuda = 0;
 
         private void frmListadoClientes_Load(object sender, EventArgs e)
         {
