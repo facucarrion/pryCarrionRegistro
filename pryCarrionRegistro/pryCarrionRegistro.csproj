@@ -47,25 +47,52 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsVector.cs" />
-    <Compile Include="frmGestionDeClientes.cs">
+    <Compile Include="frmAgregarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGestionDeClientes.Designer.cs">
-      <DependentUpon>frmGestionDeClientes.cs</DependentUpon>
+    <Compile Include="frmAgregarClientes.Designer.cs">
+      <DependentUpon>frmAgregarClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListadoOrdenado.cs">
+    <Compile Include="frmListadoClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListadoOrdenado.Designer.cs">
-      <DependentUpon>frmListadoOrdenado.cs</DependentUpon>
+    <Compile Include="frmListadoClientes.Designer.cs">
+      <DependentUpon>frmListadoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoDeudores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoDeudores.Designer.cs">
+      <DependentUpon>frmListadoDeudores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoOrdenadoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoOrdenadoClientes.Designer.cs">
+      <DependentUpon>frmListadoOrdenadoClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmGestionDeClientes.resx">
-      <DependentUpon>frmGestionDeClientes.cs</DependentUpon>
+    <EmbeddedResource Include="frmAgregarClientes.resx">
+      <DependentUpon>frmAgregarClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListadoOrdenado.resx">
-      <DependentUpon>frmListadoOrdenado.cs</DependentUpon>
+    <EmbeddedResource Include="frmListadoClientes.resx">
+      <DependentUpon>frmListadoClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoDeudores.resx">
+      <DependentUpon>frmListadoDeudores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoOrdenadoClientes.resx">
+      <DependentUpon>frmListadoOrdenadoClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
