@@ -41,5 +41,10 @@ namespace pryCarrionRegistro
             frmListadoDeudores frmListadoDeudores = new frmListadoDeudores();
             frmListadoDeudores.ShowDialog();
         }
+
+        private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
